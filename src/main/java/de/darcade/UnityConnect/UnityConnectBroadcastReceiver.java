@@ -13,14 +13,14 @@ public class UnityConnectBroadcastReceiver extends BroadcastReceiver
 
     public void onReceive(Context context, Intent intent) {
 
-        //Log.e("KdeConnect", "Broadcast event: "+intent.getAction());
+        //Log.e("UnityConnect", "Broadcast event: "+intent.getAction());
 
         String action = intent.getAction();
 
         if(action.equals(Intent.ACTION_PACKAGE_REPLACED)) {
-            Log.i("KdeConnect", "UpdateReceiver");
+            Log.i("UnityConnect", "UpdateReceiver");
             if (!intent.getData().getSchemeSpecificPart().equals(context.getPackageName())) {
-                Log.i("KdeConnect", "Ignoring, it's not me!");
+                Log.i("UnityConnect", "Ignoring, it's not me!");
                 return;
             }
             BackgroundService.RunCommand(context, new BackgroundService.InstanceCallback() {
@@ -30,7 +30,7 @@ public class UnityConnectBroadcastReceiver extends BroadcastReceiver
                 }
             });
         } else if (action.equals(Intent.ACTION_BOOT_COMPLETED)) {
-            Log.i("KdeConnect", "UnityConnectBroadcastReceiver");
+            Log.i("UnityConnect", "UnityConnectBroadcastReceiver");
             BackgroundService.RunCommand(context, new BackgroundService.InstanceCallback() {
                 @Override
                 public void onServiceStart(BackgroundService service) {
@@ -41,7 +41,7 @@ public class UnityConnectBroadcastReceiver extends BroadcastReceiver
                 || action.equals(WifiManager.WIFI_STATE_CHANGED_ACTION)
                 || action.equals(ConnectivityManager.CONNECTIVITY_ACTION)
                 ) {
-            Log.i("KdeConnect", "Connection state changed, trying to connect");
+            Log.i("UnityConnect", "Connection state changed, trying to connect");
             BackgroundService.RunCommand(context, new BackgroundService.InstanceCallback() {
                 @Override
                 public void onServiceStart(BackgroundService service) {

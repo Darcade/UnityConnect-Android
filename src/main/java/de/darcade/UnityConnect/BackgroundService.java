@@ -177,7 +177,7 @@ public class BackgroundService extends Service {
 
         // Register screen on listener
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
-        registerReceiver(new KdeConnectBroadcastReceiver(), filter);
+        registerReceiver(new UnityConnectBroadcastReceiver(), filter);
 
         Log.i("BackgroundService","Service not started yet, initializing...");
 

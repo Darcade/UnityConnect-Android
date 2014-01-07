@@ -18,7 +18,7 @@ import de.darcade.UnityConnect.Device;
 import de.darcade.UnityConnect.UserInterface.List.DeviceItem;
 import de.darcade.UnityConnect.UserInterface.List.ListAdapter;
 import de.darcade.UnityConnect.UserInterface.List.SectionItem;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.Collection;

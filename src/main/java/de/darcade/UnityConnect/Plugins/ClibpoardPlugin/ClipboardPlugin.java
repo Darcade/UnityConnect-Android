@@ -10,7 +10,7 @@ import android.widget.Button;
 
 import de.darcade.UnityConnect.NetworkPackage;
 import de.darcade.UnityConnect.Plugins.Plugin;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 public class ClipboardPlugin extends Plugin {
 

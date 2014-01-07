@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.kde.kdeconnect_tp"
+    package="de.darcade.UnityConnect_tp"
     android:versionCode="11"
     android:versionName="0.4.2">
 
@@ -35,13 +35,13 @@
 
         <service
             android:enabled="true"
-            android:name="org.kde.kdeconnect.BackgroundService">
+            android:name="de.darcade.UnityConnect.BackgroundService">
         </service>
 
         <activity
             android:theme="@style/Theme.AppCompat"
-            android:name="org.kde.kdeconnect.UserInterface.MainActivity"
-            android:label="KDE Connect" >
+            android:name="de.darcade.UnityConnect.UserInterface.MainActivity"
+            android:label="Unity Connect" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,47 +50,47 @@
         </activity>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.MainSettingsActivity"
+            android:name="de.darcade.UnityConnect.UserInterface.MainSettingsActivity"
             android:label="@string/settings"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+            android:parentActivityName="de.darcade.UnityConnect.UserInterface.MainActivity"
             >
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="de.darcade.UnityConnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
                 android:theme="@style/Theme.AppCompat"
-                android:name="org.kde.kdeconnect.UserInterface.DeviceActivity"
+                android:name="de.darcade.UnityConnect.UserInterface.DeviceActivity"
                 android:label="@string/device"
-                android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+                android:parentActivityName="de.darcade.UnityConnect.UserInterface.MainActivity"
                 >
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                       android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                       android:value="de.darcade.UnityConnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
             android:theme="@style/Theme.AppCompat"
-            android:name="org.kde.kdeconnect.UserInterface.PairActivity"
+            android:name="de.darcade.UnityConnect.UserInterface.PairActivity"
             android:label="@string/pair_device"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+            android:parentActivityName="de.darcade.UnityConnect.UserInterface.MainActivity"
             >
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="de.darcade.UnityConnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.SettingsActivity"
+            android:name="de.darcade.UnityConnect.UserInterface.SettingsActivity"
             android:label="@string/settings"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.DeviceActivity"
+            android:parentActivityName="de.darcade.UnityConnect.UserInterface.DeviceActivity"
             >
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.DeviceActivity" />
+                android:value="de.darcade.UnityConnect.UserInterface.DeviceActivity" />
         </activity>
 
-        <receiver android:name="org.kde.kdeconnect.KdeConnectBroadcastReceiver">
+        <receiver android:name="de.darcade.UnityConnect.UnityConnectBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
-                <data android:scheme="package" android:path="org.kde.kdeconnect" />
+                <data android:scheme="package" android:path="de.darcade.UnityConnect" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -116,17 +116,17 @@
 
         <activity
             android:theme="@style/Theme.AppCompat"
-            android:name="org.kde.kdeconnect.Plugins.MprisPlugin.MprisActivity"
+            android:name="de.darcade.UnityConnect.Plugins.MprisPlugin.MprisActivity"
             android:label="@string/remote_control"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.DeviceActivity"
+            android:parentActivityName="de.darcade.UnityConnect.UserInterface.DeviceActivity"
             >
         <meta-data android:name="android.support.PARENT_ACTIVITY"
-                   android:value="org.kde.kdeconnect.UserInterface.DeviceActivity" />
+                   android:value="de.darcade.UnityConnect.UserInterface.DeviceActivity" />
         </activity>
 
         <activity
             android:theme="@style/Theme.AppCompat"
-            android:name="org.kde.kdeconnect.UserInterface.ShareToReceiver"
+            android:name="de.darcade.UnityConnect.UserInterface.ShareToReceiver"
             android:label="KDE Connect"
             >
             <intent-filter>
@@ -141,7 +141,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver"
+        <service android:name="de.darcade.UnityConnect.Plugins.NotificationsPlugin.NotificationReceiver"
              android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />

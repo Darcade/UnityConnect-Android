@@ -20,7 +20,7 @@ import de.darcade.UnityConnect.Plugins.Plugin;
 import de.darcade.UnityConnect.UserInterface.List.ButtonItem;
 import de.darcade.UnityConnect.UserInterface.List.ListAdapter;
 import de.darcade.UnityConnect.UserInterface.List.SectionItem;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -22,7 +22,7 @@ import de.darcade.UnityConnect.NetworkPackage;
 import de.darcade.UnityConnect.UserInterface.List.EntryItem;
 import de.darcade.UnityConnect.UserInterface.List.ListAdapter;
 import de.darcade.UnityConnect.UserInterface.List.SectionItem;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 import java.io.File;
 import java.io.InputStream;

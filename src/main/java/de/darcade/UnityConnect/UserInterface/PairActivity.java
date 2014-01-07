@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import de.darcade.UnityConnect.BackgroundService;
 import de.darcade.UnityConnect.Device;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 public class PairActivity extends ActionBarActivity {
 

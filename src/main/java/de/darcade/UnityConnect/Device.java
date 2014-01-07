@@ -18,7 +18,7 @@ import de.darcade.UnityConnect.Backends.BaseLink;
 import de.darcade.UnityConnect.Plugins.Plugin;
 import de.darcade.UnityConnect.Plugins.PluginFactory;
 import de.darcade.UnityConnect.UserInterface.PairActivity;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 import java.security.KeyFactory;
 import java.security.PrivateKey;

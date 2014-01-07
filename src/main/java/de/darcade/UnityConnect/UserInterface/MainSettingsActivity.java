@@ -14,7 +14,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import de.darcade.UnityConnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 public class MainSettingsActivity extends PreferenceActivity{
 

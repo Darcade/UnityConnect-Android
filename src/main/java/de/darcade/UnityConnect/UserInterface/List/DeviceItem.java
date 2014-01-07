@@ -10,7 +10,7 @@ import android.widget.TextView;
 import de.darcade.UnityConnect.Device;
 import de.darcade.UnityConnect.UserInterface.DeviceActivity;
 import de.darcade.UnityConnect.UserInterface.PairActivity;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 public class DeviceItem implements ListAdapter.Item {
 

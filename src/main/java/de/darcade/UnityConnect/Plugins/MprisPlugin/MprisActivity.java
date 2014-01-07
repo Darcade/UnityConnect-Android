@@ -18,7 +18,7 @@ import de.darcade.UnityConnect.BackgroundService;
 import de.darcade.UnityConnect.Device;
 import de.darcade.UnityConnect.Backends.BaseLinkProvider;
 import de.darcade.UnityConnect.NetworkPackage;
-import org.kde.kdeconnect_tp.R;
+import de.darcade.UnityConnect_tp.R;
 
 import java.util.ArrayList;
 
