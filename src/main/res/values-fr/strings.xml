@@ -46,7 +46,7 @@
   <string name="device">Périphérique</string>
   <string name="pair_device">Apparier un périphérique</string>
   <string name="remote_control">Contrôle distant</string>
-  <string name="settings">Paramètres de connexion de KDE</string>
+  <string name="settings">Paramètres de connexion de Unity</string>
   <string name="mpris_play">Lire</string>
   <string name="mpris_previous">Précédent</string>
   <string name="mpris_rew">Retour rapide</string>

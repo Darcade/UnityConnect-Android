@@ -46,7 +46,7 @@
   <string name="device">Dispositivo</string>
   <string name="pair_device">Emparelhar dispositivo</string>
   <string name="remote_control">Controle remoto</string>
-  <string name="settings">Configurações do KDE Connect</string>
+  <string name="settings">Configurações do Unity Connect</string>
   <string name="mpris_play">Reproduzir</string>
   <string name="mpris_previous">Anterior</string>
   <string name="mpris_rew">Retornar</string>

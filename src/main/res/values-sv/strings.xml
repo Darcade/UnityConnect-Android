@@ -46,7 +46,7 @@
   <string name="device">Apparat</string>
   <string name="pair_device">Para ihop apparat</string>
   <string name="remote_control">Fjärrkontroll</string>
-  <string name="settings">KDE anslutningsinställningar</string>
+  <string name="settings">Unity anslutningsinställningar</string>
   <string name="mpris_play">Spela</string>
   <string name="mpris_previous">Föregående</string>
   <string name="mpris_rew">Snabbspola bakåt</string>

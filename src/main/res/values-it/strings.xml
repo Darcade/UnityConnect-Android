@@ -17,7 +17,7 @@
   <string name="ok">OK</string>
   <string name="cancel">Annulla</string>
   <string name="open_settings">Apri impostazioni</string>
-  <string name="no_permissions">Devi garantire a KDE Connect l\'accesso alle notifiche</string>
+  <string name="no_permissions">Devi garantire a Unity Connect l\'accesso alle notifiche</string>
   <string name="send_ping">Invia ping</string>
   <string name="open_mpris_controls">Apri il telecomando multimediale</string>
   <string name="category_connected_devices">Dispositivi connessi</string>

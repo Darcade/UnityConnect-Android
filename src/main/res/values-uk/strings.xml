@@ -46,7 +46,7 @@
   <string name="device">Пристрій</string>
   <string name="pair_device">Пов’язати пристрій</string>
   <string name="remote_control">Дистанційне керування</string>
-  <string name="settings">Параметри з’єднання з KDE</string>
+  <string name="settings">Параметри з’єднання з Unity</string>
   <string name="mpris_play">Пуск</string>
   <string name="mpris_previous">Назад</string>
   <string name="mpris_rew">Повний назад</string>

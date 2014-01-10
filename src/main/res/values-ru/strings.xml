@@ -46,7 +46,7 @@
   <string name="device">Устройство</string>
   <string name="pair_device">Спарить устройство</string>
   <string name="remote_control">Дистанционное управление</string>
-  <string name="settings">Настройки KDE Connect</string>
+  <string name="settings">Настройки Unity Connect</string>
   <string name="mpris_play">Воспроизвести</string>
   <string name="mpris_previous">Предыдущий</string>
   <string name="mpris_next">Следующее</string>
